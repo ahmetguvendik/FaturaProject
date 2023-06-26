@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{90101AC6-123B-48CE-A75A-C3A900AE40B0}|https">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Core.Fatura.Domain FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Infrastructure.Fatura.Infrastructure FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Core.Fatura.Application FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FaturaProject" expanded="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Infrastructure.Fatura.Persistance FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Presentation.Fatura.Presentation FirstBuild="True" PreferredExecutionTarget="/Applications/Brave Browser.app" />
+</Properties>
