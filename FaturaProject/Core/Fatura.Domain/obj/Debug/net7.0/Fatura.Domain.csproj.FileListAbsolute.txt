@@ -1,0 +1,12 @@
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Domain/bin/Debug/net7.0/Fatura.Domain.deps.json
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Domain/bin/Debug/net7.0/Fatura.Domain.dll
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Domain/bin/Debug/net7.0/Fatura.Domain.pdb
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Domain/obj/Debug/net7.0/Fatura.Domain.csproj.AssemblyReference.cache
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Domain/obj/Debug/net7.0/Fatura.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Domain/obj/Debug/net7.0/Fatura.Domain.AssemblyInfoInputs.cache
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Domain/obj/Debug/net7.0/Fatura.Domain.AssemblyInfo.cs
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Domain/obj/Debug/net7.0/Fatura.Domain.csproj.CoreCompileInputs.cache
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Domain/obj/Debug/net7.0/Fatura.Domain.dll
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Domain/obj/Debug/net7.0/refint/Fatura.Domain.dll
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Domain/obj/Debug/net7.0/Fatura.Domain.pdb
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Domain/obj/Debug/net7.0/ref/Fatura.Domain.dll

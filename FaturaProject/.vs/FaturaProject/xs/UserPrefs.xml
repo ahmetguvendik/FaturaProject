@@ -1,16 +1,66 @@
 ﻿<Properties StartupConfiguration="{90101AC6-123B-48CE-A75A-C3A900AE40B0}|https">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Core.Fatura.Domain FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.Infrastructure.Fatura.Infrastructure FirstBuild="True" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.ItemProperties.Presentation.Fatura.Presentation PreferredExecutionTarget="/Applications/Brave Browser.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Core.Fatura.Application FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Core/Fatura.Application/CQRS/Commands/User/LoginUser/LoginUserCommandHandler.cs">
+    <Files>
+      <File FileName="Core/Fatura.Domain/Entities/AppUser.cs" />
+      <File FileName="Core/Fatura.Domain/Entities/AppRole.cs" />
+      <File FileName="Core/Fatura.Domain/Entities/Bill.cs" />
+      <File FileName="Infrastructure/Fatura.Persistance/Contexts/BillDbContext.cs" Line="14" Column="2" />
+      <File FileName="Infrastructure/Fatura.Persistance/DesignTimeDbContext.cs" />
+      <File FileName="Infrastructure/Fatura.Persistance/ServiceRegistration.cs" />
+      <File FileName="Core/Fatura.Application/Repositories/IRepository.cs" />
+      <File FileName="Core/Fatura.Application/Repositories/IReadRepository.cs" />
+      <File FileName="Core/Fatura.Application/Repositories/IWriteRepository.cs" />
+      <File FileName="Infrastructure/Fatura.Persistance/Repositories/ReadRepository.cs" />
+      <File FileName="Infrastructure/Fatura.Persistance/Repositories/WriteRepository.cs" />
+      <File FileName="Infrastructure/Fatura.Persistance/Repositories/BillWriteRepository.cs" />
+      <File FileName="Infrastructure/Fatura.Persistance/Repositories/BillReadRepository.cs" />
+      <File FileName="Core/Fatura.Application/Repositories/IBillReadRepository.cs" />
+      <File FileName="Core/Fatura.Application/Repositories/IBillWriteRepository.cs" />
+      <File FileName="Presentation/Fatura.Presentation/Program.cs" />
+      <File FileName="Presentation/Fatura.Presentation/Controllers/BillController.cs" Line="1" Column="1" />
+      <File FileName="Presentation/Fatura.Presentation/Controllers/UserController.cs" Line="20" Column="9" />
+      <File FileName="Presentation/Fatura.Presentation/Views/Shared/_Layout.cshtml" Line="30" Column="26" />
+      <File FileName="Core/Fatura.Application/CQRS/Commands/User/CreateUser/CreateUserCommandHandler.cs" Line="1" Column="1" />
+      <File FileName="Core/Fatura.Application/CQRS/Commands/User/CreateUser/CreateUserCommandRequest.cs" Line="1" Column="1" />
+      <File FileName="Core/Fatura.Application/CQRS/Commands/User/CreateUser/CreateUserCommandResponse.cs" Line="1" Column="1" />
+      <File FileName="Core/Fatura.Application/CQRS/Commands/User/LoginUser/LoginUserCommandRequest.cs" Line="1" Column="1" />
+      <File FileName="Core/Fatura.Application/CQRS/Commands/User/LoginUser/LoginUserCommandResponse.cs" Line="1" Column="1" />
+      <File FileName="Core/Fatura.Application/CQRS/Commands/User/LoginUser/LoginUserCommandHandler.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="FaturaProject" expanded="True" />
+          <Node name="FaturaProject" expanded="True">
+            <Node name="Core" expanded="True">
+              <Node name="Fatura.Application" expanded="True">
+                <Node name="CQRS" expanded="True">
+                  <Node name="Commands" expanded="True">
+                    <Node name="User" expanded="True">
+                      <Node name="LoginUser" selected="True" />
+                    </Node>
+                  </Node>
+                  <Node name="Queries" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Fatura.Domain" expanded="True">
+                <Node name="Entities" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Infrastructure" expanded="True">
+              <Node name="Fatura.Persistance" expanded="True">
+                <Node name="Contexts" expanded="True" />
+                <Node name="Repositories" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Presentation" expanded="True">
+              <Node name="Fatura.Presentation" expanded="True">
+                <Node name="Controllers" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
@@ -18,6 +68,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Infrastructure.Fatura.Persistance FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.Presentation.Fatura.Presentation FirstBuild="True" PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

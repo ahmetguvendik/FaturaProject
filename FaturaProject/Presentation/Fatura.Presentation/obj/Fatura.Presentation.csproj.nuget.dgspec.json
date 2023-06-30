@@ -4,6 +4,259 @@
     "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Presentation/Fatura.Presentation/Fatura.Presentation.csproj": {}
   },
   "projects": {
+    "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Application/Fatura.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Application/Fatura.Application.csproj",
+        "projectName": "Fatura.Application",
+        "projectPath": "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Application/Fatura.Application.csproj",
+        "packagesPath": "/Users/ahmetguvendik/.nuget/packages/",
+        "outputPath": "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ahmetguvendik/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Domain/Fatura.Domain.csproj": {
+                "projectPath": "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Domain/Fatura.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Domain/Fatura.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Domain/Fatura.Domain.csproj",
+        "projectName": "Fatura.Domain",
+        "projectPath": "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Domain/Fatura.Domain.csproj",
+        "packagesPath": "/Users/ahmetguvendik/.nuget/packages/",
+        "outputPath": "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ahmetguvendik/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Infrastructure/Fatura.Infrastructure/Fatura.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Infrastructure/Fatura.Infrastructure/Fatura.Infrastructure.csproj",
+        "projectName": "Fatura.Infrastructure",
+        "projectPath": "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Infrastructure/Fatura.Infrastructure/Fatura.Infrastructure.csproj",
+        "packagesPath": "/Users/ahmetguvendik/.nuget/packages/",
+        "outputPath": "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Infrastructure/Fatura.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ahmetguvendik/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Infrastructure/Fatura.Persistance/Fatura.Persistance.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Infrastructure/Fatura.Persistance/Fatura.Persistance.csproj",
+        "projectName": "Fatura.Persistance",
+        "projectPath": "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Infrastructure/Fatura.Persistance/Fatura.Persistance.csproj",
+        "packagesPath": "/Users/ahmetguvendik/.nuget/packages/",
+        "outputPath": "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Infrastructure/Fatura.Persistance/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ahmetguvendik/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Application/Fatura.Application.csproj": {
+                "projectPath": "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Application/Fatura.Application.csproj"
+              },
+              "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Domain/Fatura.Domain.csproj": {
+                "projectPath": "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Domain/Fatura.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Presentation/Fatura.Presentation/Fatura.Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -26,7 +279,20 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Application/Fatura.Application.csproj": {
+                "projectPath": "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Application/Fatura.Application.csproj"
+              },
+              "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Domain/Fatura.Domain.csproj": {
+                "projectPath": "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Domain/Fatura.Domain.csproj"
+              },
+              "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Infrastructure/Fatura.Infrastructure/Fatura.Infrastructure.csproj": {
+                "projectPath": "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Infrastructure/Fatura.Infrastructure/Fatura.Infrastructure.csproj"
+              },
+              "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Infrastructure/Fatura.Persistance/Fatura.Persistance.csproj": {
+                "projectPath": "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Infrastructure/Fatura.Persistance/Fatura.Persistance.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

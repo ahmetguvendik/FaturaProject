@@ -1,0 +1,15 @@
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Application/bin/Debug/net7.0/Fatura.Application.deps.json
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Application/bin/Debug/net7.0/Fatura.Application.dll
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Application/bin/Debug/net7.0/Fatura.Application.pdb
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Application/bin/Debug/net7.0/Fatura.Domain.dll
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Application/bin/Debug/net7.0/Fatura.Domain.pdb
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Application/obj/Debug/net7.0/Fatura.Application.csproj.AssemblyReference.cache
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Application/obj/Debug/net7.0/Fatura.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Application/obj/Debug/net7.0/Fatura.Application.AssemblyInfoInputs.cache
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Application/obj/Debug/net7.0/Fatura.Application.AssemblyInfo.cs
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Application/obj/Debug/net7.0/Fatura.Application.csproj.CoreCompileInputs.cache
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Application/obj/Debug/net7.0/Fatura.Application.csproj.CopyComplete
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Application/obj/Debug/net7.0/Fatura.Application.dll
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Application/obj/Debug/net7.0/refint/Fatura.Application.dll
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Application/obj/Debug/net7.0/Fatura.Application.pdb
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Application/obj/Debug/net7.0/ref/Fatura.Application.dll

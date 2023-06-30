@@ -6,4 +6,31 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Repositories\" />
+    <None Remove="CQRS\" />
+    <None Remove="CQRS\Commands\" />
+    <None Remove="CQRS\Queries\" />
+    <None Remove="CQRS\Commands\User\" />
+    <None Remove="CQRS\Queries\User\" />
+    <None Remove="CQRS\Commands\Bill\" />
+    <None Remove="CQRS\Queries\Bill\" />
+    <None Remove="CQRS\Commands\User\CreateUser\" />
+    <None Remove="CQRS\Commands\User\LoginUser\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Repositories\" />
+    <Folder Include="CQRS\" />
+    <Folder Include="CQRS\Commands\" />
+    <Folder Include="CQRS\Queries\" />
+    <Folder Include="CQRS\Commands\User\" />
+    <Folder Include="CQRS\Queries\User\" />
+    <Folder Include="CQRS\Commands\Bill\" />
+    <Folder Include="CQRS\Queries\Bill\" />
+    <Folder Include="CQRS\Commands\User\CreateUser\" />
+    <Folder Include="CQRS\Commands\User\LoginUser\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Fatura.Domain\Fatura.Domain.csproj" />
+  </ItemGroup>
 </Project>

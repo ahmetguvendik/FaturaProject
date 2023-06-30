@@ -1,0 +1,12 @@
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Infrastructure/Fatura.Infrastructure/bin/Debug/net7.0/Fatura.Infrastructure.deps.json
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Infrastructure/Fatura.Infrastructure/bin/Debug/net7.0/Fatura.Infrastructure.dll
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Infrastructure/Fatura.Infrastructure/bin/Debug/net7.0/Fatura.Infrastructure.pdb
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Infrastructure/Fatura.Infrastructure/obj/Debug/net7.0/Fatura.Infrastructure.csproj.AssemblyReference.cache
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Infrastructure/Fatura.Infrastructure/obj/Debug/net7.0/Fatura.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Infrastructure/Fatura.Infrastructure/obj/Debug/net7.0/Fatura.Infrastructure.AssemblyInfoInputs.cache
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Infrastructure/Fatura.Infrastructure/obj/Debug/net7.0/Fatura.Infrastructure.AssemblyInfo.cs
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Infrastructure/Fatura.Infrastructure/obj/Debug/net7.0/Fatura.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Infrastructure/Fatura.Infrastructure/obj/Debug/net7.0/Fatura.Infrastructure.dll
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Infrastructure/Fatura.Infrastructure/obj/Debug/net7.0/refint/Fatura.Infrastructure.dll
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Infrastructure/Fatura.Infrastructure/obj/Debug/net7.0/Fatura.Infrastructure.pdb
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Infrastructure/Fatura.Infrastructure/obj/Debug/net7.0/ref/Fatura.Infrastructure.dll
