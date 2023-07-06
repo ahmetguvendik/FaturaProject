@@ -1,0 +1,56 @@
+﻿@using Fatura.Application.CQRS.Commands.User.CreateUser
+@model CreateUserCommandResponse
+
+<form asp-action="SignUp" asp-controller="User" method="post">
+
+    <div class="mb-3">
+        <label>
+            TC
+        </label>
+        <span class="text-danger" asp-validation-for=@Model.TcNo></span>
+        <input type="number" asp-for=@Model.TcNo class=form-control />
+    </div>
+
+    <br />
+
+    <div class="mb-3">
+        <label>
+            Email
+        </label>
+        <span class="text-danger" asp-validation-for=@Model.Email></span>
+        <input type="email" asp-for=@Model.Email class=form-control />
+    </div>
+
+    <br />
+
+    <div class="mb-3">
+        <label>
+            Username
+        </label>
+        <span class="text-danger" asp-validation-for=@Model.UserName></span>
+        <input type="text" asp-for=@Model.UserName class=form-control />
+    </div>
+
+    <br />
+
+    <div class="mb-3">
+        <label>
+            Password
+        </label>
+        <span class="text-danger" asp-validation-for=@Model.Password></span>
+        <input type="password" asp-for=@Model.Password class=form-control />
+    </div>
+
+    <br />
+
+    <div>
+        <button>
+            Sign Up
+        </button>
+    </div>
+
+    <div>
+        @ViewBag.ErrorMessage
+    </div>
+
+</form>

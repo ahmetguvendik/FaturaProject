@@ -1,11 +1,53 @@
 ﻿using System;
+using Fatura.Domain.Entities;
+using MediatR;
+using Microsoft.AspNetCore.Identity;
+
 namespace Fatura.Application.CQRS.Commands.User.CreateUser
 {
-	public class CreateUserCommandHandler
+	public class CreateUserCommandHandler : IRequestHandler<CreateUserCommandRequest,CreateUserCommandResponse>
 	{
-		public CreateUserCommandHandler()
+		private readonly UserManager<AppUser> _userManager;
+		private readonly RoleManager<AppRole> _roleManager;
+		public CreateUserCommandHandler(UserManager<AppUser> userManager, RoleManager<AppRole> roleManager)
 		{
+			_userManager = userManager;
+			_roleManager = roleManager;
 		}
-	}
+
+        public async Task<CreateUserCommandResponse> Handle(CreateUserCommandRequest request, CancellationToken cancellationToken)
+        {
+			var appUser = new AppUser();
+			appUser.TCNo = request.TcNo;
+            appUser.Id = Guid.NewGuid().ToString();
+			appUser.Email = request.Email;
+			appUser.UserName = request.UserName;
+			var response = await _userManager.CreateAsync(appUser,request.Password);
+			if (response.Succeeded)
+			{
+                var role = await _roleManager.FindByNameAsync("Member");
+				if(role == null)
+				{
+                    var appRole = new AppRole()
+                    {
+                        Id = Guid.NewGuid().ToString(),
+                        Name = "Member"
+                    };
+                    await _roleManager.CreateAsync(appRole);
+                }
+
+				await _userManager.AddToRoleAsync(appUser, "Member");
+            }
+
+			return new CreateUserCommandResponse()
+			{
+				TcNo = request.TcNo,
+				Email = request.Email,
+				Password = request.Password,
+				UserName = request.UserName
+			};
+
+		}
+    }
 }
 

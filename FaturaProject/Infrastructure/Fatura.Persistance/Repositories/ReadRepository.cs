@@ -1,5 +1,6 @@
 ﻿using System;
 using Fatura.Application.Repositories;
+using Fatura.Application.ViewModel;
 using Fatura.Domain.Entities;
 using Fatura.Persistance.Contexts;
 using Microsoft.EntityFrameworkCore;
@@ -16,15 +17,26 @@ namespace Fatura.Persistance.Repositories
 
         public DbSet<T> Table => _context.Set<T>();
 
-        public IQueryable GetAll()
+        public List<BillUserViewModel> GetAll()
         {
-            return Table;
+            var query = (from bill in _context.Set<Bill>()
+                         join user in _context.Set<AppUser>()
+                            on bill.UserId equals user.Id
+                         select new BillUserViewModel() { Name = bill.Name, Price = bill.Price, UserName = user.UserName }).ToList<BillUserViewModel>();
+            return query;
         }
 
-        public async Task<T> GetById(string id)
+        public List<BillUserViewModel> GetById(string id)
         {
-            return await Table.FirstOrDefaultAsync(x => x.Id == id);
+            var query = (from bill in _context.Set<Bill>()
+                         join user in _context.Set<AppUser>()
+                            on bill.UserId equals user.Id
+                         where user.Id == id
+                         select new BillUserViewModel() { Name = bill.Name, Price = bill.Price, UserName = user.UserName }).ToList();
+            return query;
         }
+
+       
     }
 }
 

@@ -1,0 +1,36 @@
+﻿@using Fatura.Application.CQRS.Commands.User.LoginUser
+@model LoginUserCommandResponse
+
+<form asp-action="SignIn" asp-controller="User" method="post">
+    <input type="hidden" asp-for=@Model.Id />
+    <div class="mb-3">
+        <label>
+            Username:
+        </label>
+        <span class="text-danger" asp-validation-for=@Model.UserName></span>
+        <input type="text" asp-for=@Model.UserName class=form-control />
+    </div>
+
+    <br />
+
+    <div class="mb-3">
+        <label>
+            Password:
+        </label>
+        <span class="text-danger" asp-validation-for=@Model.Password></span>
+        <input type="password" asp-for=@Model.Password class=form-control />
+    </div>
+
+    <br />
+
+    <div>
+        <button>
+            Sign In
+        </button>
+    </div>
+
+    <div>
+        @ViewBag.ErrorMessage
+    </div>
+
+</form>

@@ -28,6 +28,9 @@
             "projectReferences": {
               "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Domain/Fatura.Domain.csproj": {
                 "projectPath": "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Domain/Fatura.Domain.csproj"
+              },
+              "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Infrastructure/Fatura.Infrastructure/Fatura.Infrastructure.csproj": {
+                "projectPath": "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Infrastructure/Fatura.Infrastructure/Fatura.Infrastructure.csproj"
               }
             }
           }
@@ -41,6 +44,20 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

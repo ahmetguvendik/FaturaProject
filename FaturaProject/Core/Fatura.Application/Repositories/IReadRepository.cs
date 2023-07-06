@@ -1,12 +1,13 @@
 ﻿using System;
+using Fatura.Application.ViewModel;
 using Fatura.Domain.Entities;
 
 namespace Fatura.Application.Repositories
 {
 	public interface IReadRepository<T> : IRepository<T> where T : Bill
     {
-		IQueryable GetAll();
-		Task<T> GetById(string id);
+		List<BillUserViewModel> GetAll();
+        List<BillUserViewModel> GetById(string id);
 	}
 }
 

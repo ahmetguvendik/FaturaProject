@@ -50,3 +50,6 @@
 /Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Presentation/Fatura.Presentation/bin/Debug/net7.0/Fatura.Infrastructure.pdb
 /Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Presentation/Fatura.Presentation/bin/Debug/net7.0/Fatura.Persistance.pdb
 /Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Presentation/Fatura.Presentation/obj/Debug/net7.0/Fatura.Presentation.csproj.CopyComplete
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Presentation/Fatura.Presentation/bin/Debug/net7.0/MediatR.dll
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Presentation/Fatura.Presentation/bin/Debug/net7.0/MediatR.Contracts.dll
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Presentation/Fatura.Presentation/bin/Debug/net7.0/MediatR.Extensions.Microsoft.DependencyInjection.dll

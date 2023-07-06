@@ -10,7 +10,7 @@ namespace Fatura.Persistance.Repositories
     {
         public BillReadRepository(BillDbContext context) : base(context)
         {
-
+           
         }
     }
 }

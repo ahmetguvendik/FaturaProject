@@ -1,0 +1,28 @@
+﻿@using Fatura.Application.ViewModel
+@model List<BillUserViewModel>
+
+<table class="mt-4 table table-hover">
+    <thead>
+        <tr>
+            
+            <th>Name</th>
+            <th>Price</th>
+            <th>UserName</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                
+                <th>@item.Name</th>
+                <th>@item.Price</th>
+                <th>@item.UserName</th>
+    
+            </tr>
+        }
+
+    </tbody>
+
+</table>

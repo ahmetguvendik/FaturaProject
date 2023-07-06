@@ -1,9 +1,15 @@
-﻿using Fatura.Persistance;
+﻿using System.Reflection;
+using Fatura.Persistance;
+using Fatura.Application;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddMediatorService();
+//builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(typeof(ServiceRegistration).GetTypeInfo().Assembly));
 builder.Services.AddPersistanceService();
+builder.Services.AddSession();
+
 
 var app = builder.Build();
 
@@ -25,6 +31,6 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-
+app.UseSession();
 app.Run();
 

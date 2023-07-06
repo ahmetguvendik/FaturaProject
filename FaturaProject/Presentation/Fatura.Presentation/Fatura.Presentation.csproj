@@ -22,4 +22,12 @@
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="Views\User\" />
+    <None Remove="Views\Bill\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\User\" />
+    <Folder Include="Views\Bill\" />
+  </ItemGroup>
 </Project>
