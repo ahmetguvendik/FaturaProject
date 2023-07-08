@@ -1,36 +1,46 @@
 ﻿<Properties StartupConfiguration="{90101AC6-123B-48CE-A75A-C3A900AE40B0}|https">
   <MonoDevelop.Ide.ItemProperties.Presentation.Fatura.Presentation PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Core/Fatura.Application/CQRS/Commands/User/CreateUser/CreateUserCommandHandler.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Presentation/Fatura.Presentation/Views/Shared/_Layout.cshtml">
     <Files>
-      <File FileName="Core/Fatura.Application/ViewModel/BillUserViewModel.cs" Line="10" Column="35" />
-      <File FileName="Infrastructure/Fatura.Persistance/Repositories/ReadRepository.cs" Line="30" Column="45" />
-      <File FileName="Core/Fatura.Application/Repositories/IReadRepository.cs" />
-      <File FileName="Infrastructure/Fatura.Persistance/Repositories/BillReadRepository.cs" Line="1" Column="1" />
+      <File FileName="Core/Fatura.Application/ViewModel/BillUserViewModel.cs" />
+      <File FileName="Infrastructure/Fatura.Persistance/Repositories/ReadRepository.cs" Line="45" Column="47" />
+      <File FileName="Core/Fatura.Application/Repositories/IReadRepository.cs" Line="11" Column="39" />
+      <File FileName="Infrastructure/Fatura.Persistance/Repositories/BillReadRepository.cs" />
       <File FileName="Core/Fatura.Application/Repositories/IBillReadRepository.cs" />
-      <File FileName="Presentation/Fatura.Presentation/Views/Bill/ShowBill.cshtml" Line="30" Column="18" />
-      <File FileName="Presentation/Fatura.Presentation/Controllers/BillController.cs" Line="47" Column="17" />
+      <File FileName="Presentation/Fatura.Presentation/Views/Bill/ShowBill.cshtml" Line="1" Column="1" />
+      <File FileName="Presentation/Fatura.Presentation/Controllers/BillController.cs" Line="14" Column="9" />
       <File FileName="Presentation/Fatura.Presentation/Program.cs" />
       <File FileName="Infrastructure/Fatura.Persistance/ServiceRegistration.cs" />
-      <File FileName="Presentation/Fatura.Presentation/Controllers/UserController.cs" />
-      <File FileName="Core/Fatura.Application/CQRS/Commands/User/LoginUser/LoginUserCommandHandler.cs" />
-      <File FileName="Presentation/Fatura.Presentation/Views/Shared/_Layout.cshtml" />
-      <File FileName="Infrastructure/Fatura.Persistance/Repositories/BillWriteRepository.cs" Line="1" Column="1" />
-      <File FileName="Infrastructure/Fatura.Persistance/Repositories/WriteRepository.cs" Line="27" Column="62" />
-      <File FileName="Presentation/Fatura.Presentation/Views/Bill/Pay.cshtml" Line="37" Column="1" />
+      <File FileName="Presentation/Fatura.Presentation/Controllers/UserController.cs" Line="35" Column="14" />
+      <File FileName="Core/Fatura.Application/CQRS/Commands/User/LoginUser/LoginUserCommandHandler.cs" Line="1" Column="1" />
+      <File FileName="Presentation/Fatura.Presentation/Views/Shared/_Layout.cshtml" Line="43" Column="1" />
+      <File FileName="Infrastructure/Fatura.Persistance/Repositories/BillWriteRepository.cs" />
+      <File FileName="Infrastructure/Fatura.Persistance/Repositories/WriteRepository.cs" />
+      <File FileName="Presentation/Fatura.Presentation/Views/Bill/Pay.cshtml" />
       <File FileName="Presentation/Fatura.Presentation/Views/User/SignIn.cshtml" />
-      <File FileName="Core/Fatura.Application/CQRS/Commands/Bill/PayBill/PayBillCommandRequest.cs" Line="8" Column="3" />
+      <File FileName="Core/Fatura.Application/CQRS/Commands/Bill/PayBill/PayBillCommandRequest.cs" />
       <File FileName="Core/Fatura.Application/CQRS/Commands/Bill/PayBill/PayBillCommandResponse.cs" />
-      <File FileName="Core/Fatura.Application/CQRS/Commands/Bill/PayBill/PayBillCommandHandler.cs" Line="19" Column="33" />
+      <File FileName="Core/Fatura.Application/CQRS/Commands/Bill/PayBill/PayBillCommandHandler.cs" />
       <File FileName="Core/Fatura.Application/CQRS/Commands/User/LoginUser/LoginUserCommandResponse.cs" />
       <File FileName="Core/Fatura.Application/CQRS/Commands/User/LoginUser/LoginUserCommandRequest.cs" />
       <File FileName="Core/Fatura.Application/CQRS/Commands/User/CreateUser/CreateUserCommandResponse.cs" />
       <File FileName="Core/Fatura.Application/CQRS/Commands/User/CreateUser/CreateUserCommandRequest.cs" />
       <File FileName="Presentation/Fatura.Presentation/Controllers/HomeController.cs" />
-      <File FileName="Core/Fatura.Application/CQRS/Commands/User/CreateUser/CreateUserCommandHandler.cs" Line="42" Column="59" />
-      <File FileName="Core/Fatura.Domain/Entities/Bill.cs" Line="12" Column="6" />
-      <File FileName="Presentation/Fatura.Presentation/Controllers/AdminController.cs" Line="16" Column="27" />
+      <File FileName="Core/Fatura.Application/CQRS/Commands/User/CreateUser/CreateUserCommandHandler.cs" Line="54" Column="6" />
+      <File FileName="Core/Fatura.Domain/Entities/Bill.cs" />
+      <File FileName="Presentation/Fatura.Presentation/Controllers/AdminController.cs" Line="41" Column="30" />
+      <File FileName="Presentation/Fatura.Presentation/Views/Admin/GetUser.cshtml" Line="1" Column="1" />
+      <File FileName="Core/Fatura.Application/CQRS/Queries/User/GetUser/GetUserQueryHandler.cs" Line="21" Column="14" />
+      <File FileName="Core/Fatura.Application/CQRS/Queries/User/GetUser/GetUserQueryRequest.cs" Line="6" Column="66" />
+      <File FileName="Core/Fatura.Application/CQRS/Queries/User/GetUser/GetUserQueryResponse.cs" Line="8" Column="16" />
+      <File FileName="Infrastructure/Fatura.Persistance/Contexts/BillDbContext.cs" Line="12" Column="42" />
+      <File FileName="Presentation/Fatura.Presentation/Views/Admin/GetRole.cshtml" Line="1" Column="1" />
+      <File FileName="Presentation/Fatura.Presentation/Views/Admin/GetUserRole.cshtml" Line="10" Column="1" />
+      <File FileName="Core/Fatura.Application/ViewModel/UserRoleViewModel.cs" Line="7" Column="38" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -44,9 +54,7 @@
                       <Node name="PayBill" expanded="True" />
                     </Node>
                     <Node name="User" expanded="True">
-                      <Node name="CreateUser" expanded="True">
-                        <Node name="CreateUserCommandHandler.cs" selected="True" />
-                      </Node>
+                      <Node name="CreateUser" expanded="True" />
                       <Node name="LoginUser" expanded="True" />
                     </Node>
                   </Node>
@@ -69,6 +77,11 @@
               <Node name="Fatura.Presentation" expanded="True">
                 <Node name="Controllers" expanded="True" />
                 <Node name="Views" expanded="True">
+                  <Node name="Admin" expanded="True" />
+                  <Node name="Bill" expanded="True" />
+                  <Node name="Shared" expanded="True">
+                    <Node name="_Layout.cshtml" selected="True" />
+                  </Node>
                   <Node name="User" expanded="True" />
                 </Node>
               </Node>
@@ -78,8 +91,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

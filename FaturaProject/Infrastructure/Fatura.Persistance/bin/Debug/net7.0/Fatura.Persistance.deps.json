@@ -637,7 +637,6 @@
       "Fatura.Application/1.0.0": {
         "dependencies": {
           "Fatura.Domain": "1.0.0",
-          "Fatura.Infrastructure": "1.0.0",
           "MediatR": "12.1.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "11.1.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.8"
@@ -654,11 +653,6 @@
         },
         "runtime": {
           "Fatura.Domain.dll": {}
-        }
-      },
-      "Fatura.Infrastructure/1.0.0": {
-        "runtime": {
-          "Fatura.Infrastructure.dll": {}
         }
       }
     }
@@ -1088,11 +1082,6 @@
       "sha512": ""
     },
     "Fatura.Domain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Fatura.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

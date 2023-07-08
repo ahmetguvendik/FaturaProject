@@ -35,8 +35,8 @@ namespace Fatura.Presentation.Controllers
             }
             else if(response.Role == "Admin")
             {
-               
-                return View(response);
+
+                return RedirectToAction("GetUser", "Admin");
             } 
 
             return View(response);

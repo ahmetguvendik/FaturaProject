@@ -1021,7 +1021,6 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "Fatura.Domain": "1.0.0",
-          "Fatura.Infrastructure": "1.0.0",
           "MediatR": "12.1.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "11.1.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.8"
@@ -1046,16 +1045,6 @@
         },
         "runtime": {
           "bin/placeholder/Fatura.Domain.dll": {}
-        }
-      },
-      "Fatura.Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/Fatura.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Fatura.Infrastructure.dll": {}
         }
       }
     }
@@ -2375,11 +2364,6 @@
       "type": "project",
       "path": "../../Core/Fatura.Domain/Fatura.Domain.csproj",
       "msbuildProject": "../../Core/Fatura.Domain/Fatura.Domain.csproj"
-    },
-    "Fatura.Infrastructure/1.0.0": {
-      "type": "project",
-      "path": "../Fatura.Infrastructure/Fatura.Infrastructure.csproj",
-      "msbuildProject": "../Fatura.Infrastructure/Fatura.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {

@@ -1,12 +1,14 @@
 ﻿using Fatura.Application.CQRS.Commands.Bill.PayBill;
 using Fatura.Application.Repositories;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace Fatura.Presentation.Controllers
 {
+    [Authorize(Roles = "Admin,Member")]
     public class BillController : Controller
     {
         private readonly IBillReadRepository _readRepository;

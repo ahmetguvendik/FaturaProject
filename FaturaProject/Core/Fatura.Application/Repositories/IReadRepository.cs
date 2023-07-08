@@ -8,6 +8,8 @@ namespace Fatura.Application.Repositories
     {
 		IQueryable GetAll();
         List<BillUserViewModel> GetById(string id);
-	}
+        IQueryable<UserRoleViewModel> GetUserRole();
+
+    }
 }
 

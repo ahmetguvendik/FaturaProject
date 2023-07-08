@@ -19,6 +19,7 @@
     <None Remove="CQRS\Commands\User\LoginUser\" />
     <None Remove="ViewModel\" />
     <None Remove="CQRS\Commands\Bill\PayBill\" />
+    <None Remove="CQRS\Queries\User\GetUser\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Repositories\" />
@@ -33,10 +34,10 @@
     <Folder Include="CQRS\Commands\User\LoginUser\" />
     <Folder Include="ViewModel\" />
     <Folder Include="CQRS\Commands\Bill\PayBill\" />
+    <Folder Include="CQRS\Queries\User\GetUser\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Fatura.Domain\Fatura.Domain.csproj" />
-    <ProjectReference Include="..\..\Infrastructure\Fatura.Infrastructure\Fatura.Infrastructure.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="MediatR" Version="12.1.0" />

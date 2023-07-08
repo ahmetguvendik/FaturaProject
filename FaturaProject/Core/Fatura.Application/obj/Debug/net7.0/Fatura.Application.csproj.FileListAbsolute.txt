@@ -13,5 +13,3 @@
 /Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Application/obj/Debug/net7.0/refint/Fatura.Application.dll
 /Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Application/obj/Debug/net7.0/Fatura.Application.pdb
 /Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Application/obj/Debug/net7.0/ref/Fatura.Application.dll
-/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Application/bin/Debug/net7.0/Fatura.Infrastructure.dll
-/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Application/bin/Debug/net7.0/Fatura.Infrastructure.pdb

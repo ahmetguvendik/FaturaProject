@@ -17,5 +17,3 @@
 /Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Infrastructure/Fatura.Persistance/obj/Debug/net7.0/ref/Fatura.Persistance.dll
 /Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Infrastructure/Fatura.Persistance/bin/Debug/net7.0/Fatura.Persistance.runtimeconfig.json
 /Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Infrastructure/Fatura.Persistance/obj/Debug/net7.0/Fatura.Persistance.genruntimeconfig.cache
-/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Infrastructure/Fatura.Persistance/bin/Debug/net7.0/Fatura.Infrastructure.dll
-/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Infrastructure/Fatura.Persistance/bin/Debug/net7.0/Fatura.Infrastructure.pdb

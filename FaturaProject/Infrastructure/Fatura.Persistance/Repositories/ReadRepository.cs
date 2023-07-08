@@ -32,6 +32,22 @@ namespace Fatura.Persistance.Repositories
             return query;
         }
 
+        public IQueryable<UserRoleViewModel> GetUserRole()
+        {
+            var model = from user in _context.Users
+                        join userRole in _context.UserRoles
+                        on user.Id equals userRole.UserId
+                        join role in _context.Roles
+                        on userRole.RoleId equals role.Id
+                        select new UserRoleViewModel
+                        {
+                            UserId = user.UserName,
+                            RoleId = role.Name
+                        };
+
+            return model;
+        }
+
        
     }
 }

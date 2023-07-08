@@ -28,9 +28,6 @@
             "projectReferences": {
               "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Domain/Fatura.Domain.csproj": {
                 "projectPath": "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Core/Fatura.Domain/Fatura.Domain.csproj"
-              },
-              "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Infrastructure/Fatura.Infrastructure/Fatura.Infrastructure.csproj": {
-                "projectPath": "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Infrastructure/Fatura.Infrastructure/Fatura.Infrastructure.csproj"
               }
             }
           }

@@ -1,0 +1,28 @@
+﻿@using Fatura.Domain.Entities
+@model List<AppUser>
+
+<table class="mt-4 table table-hover">
+    <thead>
+        <tr>
+
+            <th>Id</th>
+            <th>Tc No</th>
+            <th>UserName</th>
+            <th>Email</th>
+         
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th>@item.Id</th>
+                <th>@item.TCNo</th>
+                <th>@item.UserName</th>
+                <th>@item.Email</th>
+            </tr>
+        }
+
+    </tbody>
+
+</table>

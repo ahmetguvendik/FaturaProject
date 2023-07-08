@@ -1,0 +1,26 @@
+﻿@using Fatura.Application.ViewModel
+@model IQueryable<UserRoleViewModel>
+
+<table class="mt-4 table table-hover">
+    <thead>
+        <tr>
+
+            <th>User</th>
+            <th>Role</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th>@item.UserId</th>
+                <th>@item.RoleId</th>
+
+
+            </tr>
+        }
+
+    </tbody>
+
+</table>
