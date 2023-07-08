@@ -6,7 +6,7 @@ namespace Fatura.Application.Repositories
 {
 	public interface IReadRepository<T> : IRepository<T> where T : Bill
     {
-		List<BillUserViewModel> GetAll();
+		IQueryable GetAll();
         List<BillUserViewModel> GetById(string id);
 	}
 }

@@ -4,10 +4,14 @@
 <table class="mt-4 table table-hover">
     <thead>
         <tr>
-            
+
             <th>Name</th>
             <th>Price</th>
             <th>UserName</th>
+            <th>Pay</th>
+            <th>IsPay</th>
+
+
 
         </tr>
     </thead>
@@ -15,11 +19,16 @@
         @foreach (var item in Model)
         {
             <tr>
-                
+
                 <th>@item.Name</th>
                 <th>@item.Price</th>
                 <th>@item.UserName</th>
-    
+                <th>@item.IsPay</th>
+                @if (item.IsPay == false)
+                {
+                    <th><a asp-action="Pay" asp-controller="Bill" asp-route-id=@item.Id>Pay</a></th>
+                }
+
             </tr>
         }
 

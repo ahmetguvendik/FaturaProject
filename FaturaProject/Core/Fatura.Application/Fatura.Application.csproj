@@ -18,6 +18,7 @@
     <None Remove="CQRS\Commands\User\CreateUser\" />
     <None Remove="CQRS\Commands\User\LoginUser\" />
     <None Remove="ViewModel\" />
+    <None Remove="CQRS\Commands\Bill\PayBill\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Repositories\" />
@@ -31,13 +32,14 @@
     <Folder Include="CQRS\Commands\User\CreateUser\" />
     <Folder Include="CQRS\Commands\User\LoginUser\" />
     <Folder Include="ViewModel\" />
+    <Folder Include="CQRS\Commands\Bill\PayBill\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Fatura.Domain\Fatura.Domain.csproj" />
     <ProjectReference Include="..\..\Infrastructure\Fatura.Infrastructure\Fatura.Infrastructure.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="MediatR" Version="12.0.1" />
+    <PackageReference Include="MediatR" Version="12.1.0" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.8" />
   </ItemGroup>

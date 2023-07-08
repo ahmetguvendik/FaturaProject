@@ -1,0 +1,48 @@
+﻿@using Fatura.Application.CQRS.Commands.Bill.PayBill
+@model PayBillCommandResponse
+
+<form asp-action="Pay" asp-controller="Bill" method="post">
+    
+    <div class="mb-3">
+        <label>
+            Kredi Kartı Numarası:
+        </label>
+        <span class="text-danger" asp-validation-for=@Model.CardNumaber></span>
+        <input type="number" asp-for=@Model.CardNumaber class=form-control />
+    </div>
+
+    <br />
+
+    <div class="mb-3">
+        <label>
+            Tarih:
+        </label>
+        <span class="text-danger" asp-validation-for=@Model.CardDateTıme></span>
+        <input type="text" asp-for=@Model.CardDateTıme class=form-control />
+    </div>
+
+    <br />
+
+    <div class="mb-3">
+        <label>
+            CVC:
+        </label>
+        <span class="text-danger" asp-validation-for=@Model.CVC></span>
+        <input type="number" asp-for=@Model.CVC class=form-control />
+    </div>
+
+    <br />
+
+
+
+    <div>
+        <button>
+            Pay
+        </button>
+    </div>
+
+    <div>
+        @ViewBag.ErrorMessage
+    </div>
+
+</form>

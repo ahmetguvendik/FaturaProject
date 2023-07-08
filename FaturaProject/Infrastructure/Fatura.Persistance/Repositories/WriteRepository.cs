@@ -36,6 +36,7 @@ namespace Fatura.Persistance.Repositories
         public async Task SaveAsync()
         {
             await _context.SaveChangesAsync();
+            
         }
 
         public Task UpdateAsync(T model)

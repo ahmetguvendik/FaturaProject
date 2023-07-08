@@ -22,23 +22,26 @@ namespace Fatura.Application.CQRS.Commands.User.CreateUser
             appUser.Id = Guid.NewGuid().ToString();
 			appUser.Email = request.Email;
 			appUser.UserName = request.UserName;
-			var response = await _userManager.CreateAsync(appUser,request.Password);
-			if (response.Succeeded)
-			{
-                var role = await _roleManager.FindByNameAsync("Member");
-				if(role == null)
+			
+				var response = await _userManager.CreateAsync(appUser, request.Password);
+
+
+				if (response.Succeeded)
 				{
-                    var appRole = new AppRole()
-                    {
-                        Id = Guid.NewGuid().ToString(),
-                        Name = "Member"
-                    };
-                    await _roleManager.CreateAsync(appRole);
-                }
+					var role = await _roleManager.FindByNameAsync("Member");
+					if (role == null)
+					{
+						var appRole = new AppRole()
+						{
+							Id = Guid.NewGuid().ToString(),
+							Name = "Member"
+						};
+						await _roleManager.CreateAsync(appRole);
+					}
 
-				await _userManager.AddToRoleAsync(appUser, "Member");
-            }
-
+					await _userManager.AddToRoleAsync(appUser, "Member");
+				}
+			
 			return new CreateUserCommandResponse()
 			{
 				TcNo = request.TcNo,

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "33zGpgAbWInbgCUfFaXGjaLSZG2zgYrlEDKy7t6P6Z5AMSbmISGyJBasFV81s0V3SLSkk8os2OtQ1ySJrhpzuw==",
+  "dgSpecHash": "Vh6b/wKXuY+63uq/2SPaf3s9K5TS/2hL4LvXGWvQJ9x2L3iY8fPiJi91B9yAzDRqZeIagziM+bIsCXfZ2stREQ==",
   "success": true,
   "projectFilePath": "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Presentation/Fatura.Presentation/Fatura.Presentation.csproj",
   "expectedPackageFiles": [
-    "/Users/ahmetguvendik/.nuget/packages/mediatr/12.0.1/mediatr.12.0.1.nupkg.sha512",
+    "/Users/ahmetguvendik/.nuget/packages/mediatr/12.1.0/mediatr.12.1.0.nupkg.sha512",
     "/Users/ahmetguvendik/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/ahmetguvendik/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "/Users/ahmetguvendik/.nuget/packages/microsoft.aspnetcore.authentication/2.2.0/microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
@@ -62,7 +62,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requires MediatR (>= 11.0.0 && < 12.0.0) but version MediatR 12.0.1 was resolved.",
+      "message": "Detected package version outside of dependency constraint: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requires MediatR (>= 11.0.0 && < 12.0.0) but version MediatR 12.1.0 was resolved.",
       "libraryId": "MediatR",
       "targetGraphs": [
         "net7.0"
