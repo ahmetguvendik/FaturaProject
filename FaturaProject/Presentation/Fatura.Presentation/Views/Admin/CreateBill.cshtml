@@ -1,0 +1,45 @@
+﻿@using Fatura.Application.CQRS.Commands.Bill.CreateBill
+@model CreateBillCommandResponse
+
+<form asp-action="CreateBill" asp-controller="Admin" method="post">
+    <div class="mb-3">
+        <label>
+            Bill:
+        </label>
+        <span class="text-danger" asp-validation-for=@Model.BillName></span>
+        <input type="text" asp-for=@Model.BillName class=form-control />
+    </div>
+
+    <br />
+
+    <div class="mb-3">
+        <label>
+            Price:
+        </label>
+        <span class="text-danger" asp-validation-for=@Model.BillPrice></span>
+        <input type="number" asp-for=@Model.BillPrice class=form-control />
+    </div>
+
+    <br />
+
+    <div class="mb-3">
+        <label>
+            UserId:
+        </label>
+        <span class="text-danger" asp-validation-for=@Model.UserId></span>
+        <input type="text" asp-for=@Model.UserId class=form-control />
+    </div>
+
+    <br />
+
+    <div>
+        <button>
+            Save
+        </button>
+    </div>
+
+    <div>
+        @ViewBag.ErrorMessage
+    </div>
+
+</form>

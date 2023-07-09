@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Presentation/Fatura.Presentation
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Presentation/Fatura.Presentation/Views/Admin/CreateBill.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQ3JlYXRlQmlsbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Presentation/Fatura.Presentation/Views/Admin/GetRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vR2V0Um9sZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

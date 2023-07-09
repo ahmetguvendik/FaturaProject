@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Fatura.Application.CQRS.Commands.Bill.CreateBill;
 using Fatura.Application.Repositories;
 using Fatura.Domain.Entities;
+using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -18,11 +20,13 @@ namespace Fatura.Presentation.Controllers
         private readonly UserManager<AppUser> _userManager;
         private readonly RoleManager<AppRole> _roleManager;
         private readonly IBillReadRepository _readRepository;
-        public AdminController(UserManager<AppUser> userManager, RoleManager<AppRole> roleManager, IBillReadRepository readRepository)
+        private readonly IMediator _mediator;
+        public AdminController(UserManager<AppUser> userManager, RoleManager<AppRole> roleManager, IBillReadRepository readRepository, IMediator mediator)
         {
             _userManager = userManager;
             _roleManager = roleManager;
             _readRepository = readRepository;
+            _mediator = mediator;
         }
 
         public IActionResult GetUser()
@@ -42,6 +46,19 @@ namespace Fatura.Presentation.Controllers
         {
             var userRole =  _readRepository.GetUserRole();
             return View(userRole);
+        }
+
+        public IActionResult CreateBill()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CreateBill(CreateBillCommandRequest request)
+        {
+            var response = await _mediator.Send(request);
+            return View(response);
+
         }
 
     }
