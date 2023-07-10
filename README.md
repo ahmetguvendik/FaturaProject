@@ -1,4 +1,6 @@
 # FaturaProject
+Admin ve Member tarafinin oldugu Adminin Member'a Fatura atadigi bir uygulamadir. Asp.Net Core ve Onion Arc. kullanilarak yapilmistir.
+
 ![Ekran Resmi 2023-07-10 15 29 44 (2)](https://github.com/ahmetguvendik/FaturaProject/assets/62288196/3389f5af-aad9-4671-aec5-691f2d516c9c)
 ![Ekran Resmi 2023-07-10 15 30 09 (2)](https://github.com/ahmetguvendik/FaturaProject/assets/62288196/5453a2d6-3ea5-4abb-9423-35bb74f05fd7)
 ![Ekran Resmi 2023-07-10 15 29 33 (2)](https://github.com/ahmetguvendik/FaturaProject/assets/62288196/f4ffdd8a-aab7-48f5-8596-e60d84c9c1a7)
