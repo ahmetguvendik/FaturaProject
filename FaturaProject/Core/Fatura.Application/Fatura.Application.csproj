@@ -21,6 +21,7 @@
     <None Remove="CQRS\Commands\Bill\PayBill\" />
     <None Remove="CQRS\Queries\User\GetUser\" />
     <None Remove="CQRS\Commands\Bill\CreateBill\" />
+    <None Remove="Services\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Repositories\" />
@@ -37,6 +38,7 @@
     <Folder Include="CQRS\Commands\Bill\PayBill\" />
     <Folder Include="CQRS\Queries\User\GetUser\" />
     <Folder Include="CQRS\Commands\Bill\CreateBill\" />
+    <Folder Include="Services\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Fatura.Domain\Fatura.Domain.csproj" />
@@ -45,5 +47,7 @@
     <PackageReference Include="MediatR" Version="12.1.0" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
   </ItemGroup>
 </Project>

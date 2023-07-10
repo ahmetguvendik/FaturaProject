@@ -53,3 +53,12 @@
 /Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Presentation/Fatura.Presentation/bin/Debug/net7.0/MediatR.dll
 /Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Presentation/Fatura.Presentation/bin/Debug/net7.0/MediatR.Contracts.dll
 /Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Presentation/Fatura.Presentation/bin/Debug/net7.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Presentation/Fatura.Presentation/bin/Debug/net7.0/BouncyCastle.Cryptography.dll
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Presentation/Fatura.Presentation/bin/Debug/net7.0/MailKit.dll
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Presentation/Fatura.Presentation/bin/Debug/net7.0/Microsoft.DotNet.PlatformAbstractions.dll
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Presentation/Fatura.Presentation/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Presentation/Fatura.Presentation/bin/Debug/net7.0/MimeKit.dll
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Presentation/Fatura.Presentation/bin/Debug/net7.0/NETCore.MailKit.dll
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Presentation/Fatura.Presentation/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Presentation/Fatura.Presentation/bin/Debug/net7.0/System.Security.Cryptography.Pkcs.dll
+/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Presentation/Fatura.Presentation/bin/Debug/net7.0/runtimes/win/lib/net7.0/System.Security.Cryptography.Pkcs.dll

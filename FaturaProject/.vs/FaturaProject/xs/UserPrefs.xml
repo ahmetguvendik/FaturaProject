@@ -1,17 +1,11 @@
 ﻿<Properties StartupConfiguration="{90101AC6-123B-48CE-A75A-C3A900AE40B0}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Presentation.Fatura.Presentation PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Core/Fatura.Application/CQRS/Commands/Bill/CreateBill/CreateBillCommandHandler.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Infrastructure/Fatura.Persistance/ServiceRegistration.cs">
     <Files>
-      <File FileName="Presentation/Fatura.Presentation/Views/Admin/CreateBill.cshtml" Line="4" Column="29" />
-      <File FileName="Core/Fatura.Application/CQRS/Commands/Bill/CreateBill/CreateBillCommandHandler.cs" Line="24" Column="48" />
-      <File FileName="Core/Fatura.Application/CQRS/Commands/Bill/CreateBill/CreateBillCommandRequest.cs" Line="8" Column="3" />
-      <File FileName="Core/Fatura.Application/CQRS/Commands/Bill/CreateBill/CreateBillCommandResponse.cs" Line="8" Column="43" />
-      <File FileName="Infrastructure/Fatura.Persistance/DesignTimeDbContext.cs" Line="1" Column="1" />
-      <File FileName="Infrastructure/Fatura.Persistance/Repositories/WriteRepository.cs" Line="23" Column="1" />
-      <File FileName="Core/Fatura.Domain/Entities/Bill.cs" Line="11" Column="40" />
-      <File FileName="Presentation/Fatura.Presentation/Controllers/AdminController.cs" Line="51" Column="40" />
-      <File FileName="Core/Fatura.Application/Repositories/IBillWriteRepository.cs" Line="1" Column="1" />
-      <File FileName="Core/Fatura.Application/Repositories/IWriteRepository.cs" Line="11" Column="20" />
+      <File FileName="Presentation/Fatura.Presentation/Controllers/UserController.cs" Line="3" Column="1" />
+      <File FileName="Infrastructure/Fatura.Persistance/ServiceRegistration.cs" Line="19" Column="182" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,26 +13,9 @@
           <Node name="FaturaProject" expanded="True">
             <Node name="Core" expanded="True">
               <Node name="Fatura.Application" expanded="True">
-                <Node name="CQRS" expanded="True">
-                  <Node name="Commands" expanded="True">
-                    <Node name="Bill" expanded="True">
-                      <Node name="CreateBill" expanded="True">
-                        <Node name="CreateBillCommandHandler.cs" selected="True" />
-                      </Node>
-                      <Node name="PayBill" expanded="True" />
-                    </Node>
-                    <Node name="User" expanded="True">
-                      <Node name="CreateUser" expanded="True" />
-                      <Node name="LoginUser" expanded="True" />
-                    </Node>
-                  </Node>
-                  <Node name="Queries" expanded="True">
-                    <Node name="User" expanded="True">
-                      <Node name="GetUser" expanded="True" />
-                    </Node>
-                  </Node>
-                </Node>
+                <Node name="CQRS" expanded="True" />
                 <Node name="Repositories" expanded="True" />
+                <Node name="Services" expanded="True" />
                 <Node name="ViewModel" expanded="True" />
               </Node>
               <Node name="Fatura.Domain" expanded="True">
@@ -49,6 +26,8 @@
               <Node name="Fatura.Persistance" expanded="True">
                 <Node name="Contexts" expanded="True" />
                 <Node name="Repositories" expanded="True" />
+                <Node name="Services" expanded="True" />
+                <Node name="ServiceRegistration.cs" selected="True" />
               </Node>
             </Node>
             <Node name="Presentation" expanded="True">
@@ -67,9 +46,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
