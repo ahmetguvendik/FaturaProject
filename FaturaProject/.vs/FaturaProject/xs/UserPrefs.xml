@@ -1,11 +1,16 @@
 ﻿<Properties StartupConfiguration="{90101AC6-123B-48CE-A75A-C3A900AE40B0}|https">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Presentation.Fatura.Presentation PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Infrastructure/Fatura.Persistance/ServiceRegistration.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Presentation/Fatura.Presentation/Views/Bill/ShowBill.cshtml">
     <Files>
-      <File FileName="Presentation/Fatura.Presentation/Controllers/UserController.cs" Line="3" Column="1" />
-      <File FileName="Infrastructure/Fatura.Persistance/ServiceRegistration.cs" Line="19" Column="182" />
+      <File FileName="Presentation/Fatura.Presentation/Controllers/UserController.cs" />
+      <File FileName="Infrastructure/Fatura.Persistance/ServiceRegistration.cs" Line="24" Column="1" />
+      <File FileName="Presentation/Fatura.Presentation/Controllers/BillController.cs" Line="47" Column="1" />
+      <File FileName="Core/Fatura.Application/CQRS/Commands/Bill/PayBill/PayBillCommandHandler.cs" Line="25" Column="52" />
+      <File FileName="Core/Fatura.Application/CQRS/Commands/Bill/PayBill/PayBillCommandRequest.cs" Line="8" Column="34" />
+      <File FileName="Infrastructure/Fatura.Persistance/Repositories/ReadRepository.cs" Line="10" Column="44" />
+      <File FileName="Core/Fatura.Application/Repositories/IReadRepository.cs" Line="12" Column="16" />
+      <File FileName="Core/Fatura.Application/CQRS/Commands/User/CreateUser/CreateUserCommandHandler.cs" Line="47" Column="13" />
+      <File FileName="Presentation/Fatura.Presentation/Views/Bill/Pay.cshtml" Line="1" Column="1" />
+      <File FileName="Presentation/Fatura.Presentation/Views/Bill/ShowBill.cshtml" Line="12" Column="25" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,7 +18,14 @@
           <Node name="FaturaProject" expanded="True">
             <Node name="Core" expanded="True">
               <Node name="Fatura.Application" expanded="True">
-                <Node name="CQRS" expanded="True" />
+                <Node name="CQRS" expanded="True">
+                  <Node name="Commands" expanded="True">
+                    <Node name="Bill" expanded="True" />
+                    <Node name="User" expanded="True">
+                      <Node name="CreateUser" expanded="True" />
+                    </Node>
+                  </Node>
+                </Node>
                 <Node name="Repositories" expanded="True" />
                 <Node name="Services" expanded="True" />
                 <Node name="ViewModel" expanded="True" />
@@ -24,10 +36,8 @@
             </Node>
             <Node name="Infrastructure" expanded="True">
               <Node name="Fatura.Persistance" expanded="True">
-                <Node name="Contexts" expanded="True" />
                 <Node name="Repositories" expanded="True" />
                 <Node name="Services" expanded="True" />
-                <Node name="ServiceRegistration.cs" selected="True" />
               </Node>
             </Node>
             <Node name="Presentation" expanded="True">
@@ -35,7 +45,9 @@
                 <Node name="Controllers" expanded="True" />
                 <Node name="Views" expanded="True">
                   <Node name="Admin" expanded="True" />
-                  <Node name="Bill" expanded="True" />
+                  <Node name="Bill" expanded="True">
+                    <Node name="ShowBill.cshtml" selected="True" />
+                  </Node>
                   <Node name="Shared" expanded="True" />
                   <Node name="User" expanded="True" />
                 </Node>
@@ -46,8 +58,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Presentation.Fatura.Presentation PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

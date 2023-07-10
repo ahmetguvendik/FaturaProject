@@ -22,6 +22,11 @@ namespace Fatura.Persistance.Repositories
             return Table;
         }
 
+        public async Task<T> GetByBillId(string id)
+        {
+            return await Table.FirstOrDefaultAsync(x => x.Id == id);
+        }
+
         public List<BillUserViewModel> GetById(string id)
         {
             var query = (from bill in _context.Set<Bill>()
@@ -47,6 +52,8 @@ namespace Fatura.Persistance.Repositories
 
             return model;
         }
+
+        
 
        
     }
