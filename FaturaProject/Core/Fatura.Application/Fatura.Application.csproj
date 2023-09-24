@@ -19,9 +19,11 @@
     <None Remove="CQRS\Commands\User\LoginUser\" />
     <None Remove="ViewModel\" />
     <None Remove="CQRS\Commands\Bill\PayBill\" />
-    <None Remove="CQRS\Queries\User\GetUser\" />
     <None Remove="CQRS\Commands\Bill\CreateBill\" />
     <None Remove="Services\" />
+    <None Remove="CQRS\Queries\User\GetAllUser\" />
+    <None Remove="CQRS\Queries\User\GetAllRole\" />
+    <None Remove="CQRS\Queries\Bill\GetUserRole\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Repositories\" />
@@ -36,9 +38,11 @@
     <Folder Include="CQRS\Commands\User\LoginUser\" />
     <Folder Include="ViewModel\" />
     <Folder Include="CQRS\Commands\Bill\PayBill\" />
-    <Folder Include="CQRS\Queries\User\GetUser\" />
     <Folder Include="CQRS\Commands\Bill\CreateBill\" />
     <Folder Include="Services\" />
+    <Folder Include="CQRS\Queries\User\GetAllUser\" />
+    <Folder Include="CQRS\Queries\User\GetAllRole\" />
+    <Folder Include="CQRS\Queries\Bill\GetUserRole\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Fatura.Domain\Fatura.Domain.csproj" />

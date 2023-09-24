@@ -23,8 +23,7 @@ namespace Fatura.Presentation.Controllers
         public IActionResult ShowBill()
         {
             var id = HttpContext.Session.GetString("Userid");
-            var bill = _readRepository.GetById(id);
-           
+            var bill = _readRepository.GetById(id);           
             if(bill == null)
             {
                 return RedirectToAction("SignIn", "User");

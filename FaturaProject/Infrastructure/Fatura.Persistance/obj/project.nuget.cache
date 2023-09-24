@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AJD1JTUcj8R4rFvu6bOUjbpiwyrqNmUWR4LyvH+Y7JLLO5jvdMDv0AEKHcWu7rdPVahHWJcBLCj7vIPZkB2a3A==",
+  "dgSpecHash": "g3gfl4CTqnhzIP3xYzGubp4Je1BOn/h6nQChzxbnr0m9YJH3Vy+oxseMHuHyXINuMRuClCxEm9m/BcGI8GHmiQ==",
   "success": true,
   "projectFilePath": "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/FaturaProject/Infrastructure/Fatura.Persistance/Fatura.Persistance.csproj",
   "expectedPackageFiles": [

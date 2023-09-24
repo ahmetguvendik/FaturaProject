@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Fatura.Application.CQRS.Commands.Bill.CreateBill;
+using Fatura.Application.CQRS.Queries.Bill.GetUserRole;
+using Fatura.Application.CQRS.Queries.User.GetAllRole;
+using Fatura.Application.CQRS.Queries.User.GetAllUser;
 using Fatura.Application.Repositories;
 using Fatura.Domain.Entities;
 using MediatR;
@@ -17,34 +20,27 @@ namespace Fatura.Presentation.Controllers
     [Authorize(Roles = "Admin")]
     public class AdminController : Controller
     {
-        private readonly UserManager<AppUser> _userManager;
-        private readonly RoleManager<AppRole> _roleManager;
-        private readonly IBillReadRepository _readRepository;
         private readonly IMediator _mediator;
-        public AdminController(UserManager<AppUser> userManager, RoleManager<AppRole> roleManager, IBillReadRepository readRepository, IMediator mediator)
+        public AdminController(IMediator mediator)
         {
-            _userManager = userManager;
-            _roleManager = roleManager;
-            _readRepository = readRepository;
             _mediator = mediator;
         }
 
-        public IActionResult GetUser()
+        public async Task<IActionResult> GetUser(GetAllUserQueryRequest model)
         {
-            var users =  _userManager.Users.ToList();
-            
+            var users = await _mediator.Send(model);
             return View(users);
         }
 
-        public IActionResult GetRole()
+        public async Task<IActionResult> GetRole(GetAllRoleQueryRequest model)
         {
-            var roles = _roleManager.Roles.ToList();
+            var roles = await _mediator.Send(model);
             return View(roles);
         }
 
-        public  IActionResult GetUserRole()
+        public  async Task<IActionResult> GetUserRole(GetUserRoleQueryRequest model)
         {
-            var userRole =  _readRepository.GetUserRole();
+            var userRole = await _mediator.Send(model);
             return View(userRole);
         }
 
